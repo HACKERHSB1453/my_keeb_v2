@@ -1,0 +1,1 @@
+I added the JOURNAL.md
