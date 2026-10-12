@@ -4,3 +4,12 @@ author: "Hakan"
 description: "It will be a split keyboard"
 created_at: "2026-10-12"
 ---
+# October 12: Designed the PCB layout, and also put into place most of the things
+
+I spend some hours designing the layout. I also finished the schematics, and the I put everyting into place. 
+
+here are some photos: ![alt text](image.png) ![alt text](image-1.png)
+
+I tracked everything with lapse, it was my first time using lapse, and it is nice to see eveything you did.
+I also had some problem with kicad. I use kicad before but I recently swtiched to ARCH, and had some problem, but I ended up fixing it with the help of claude code. And then I imported the config from my old system.
+**Total time spent: Almost 3,5 hours**
