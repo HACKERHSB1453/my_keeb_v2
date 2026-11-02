@@ -37,4 +37,4 @@ Here are some photos of the process: ![alt text](image-7.png) ![alt text](image-
 It is near begin complete. But there where some important design changes. I made the keyboard compatible with both V1 and V2 choc switches using a custom footprint. I had to reroute some wires in the pcb to make it compatible with both switches. I also decided to add a nice!view screen. I have investigated a bit and they fit really well what I need. They are fast and they dont are similar to e-ink displays. I have added the display to the schematics and the PCB. The PCB is fully routed, I added some more mountholes for having something to cover the screen and microcontroller.
 
 Here are some photos of the process: ![alt text](image-11.png) ![alt text](image-12.png) ![alt text](image-13.png) ![alt text](image-14.png)
-**Total time spent: Almost 4 hours**
+**Total time spent: 4 hours**
