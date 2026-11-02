@@ -18,3 +18,4 @@ I also had some problem with kicad. I use kicad before but I recently swtiched t
 I have spent around 3 hours wiring everything. I also changed the battery footprint for a battery connector since I thought that a conector would be much better than soldering the battery cell to the PCB directly. 
 Here are some photos of the process: ![alt text](image-2.png) ![alt text](image-3.png)
 **Total time spent: 3 hours**
+

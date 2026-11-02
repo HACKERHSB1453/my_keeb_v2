@@ -530,7 +530,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "my_keeb_v2_kicad.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -665,7 +665,7 @@
         "uuid": "908086ea-f4bb-4c16-84c5-a30cb50b08de"
       }
     ],
-    "used_designators": "B1-4,BT1-3,CH1-42,D1-42,H1-8,MX1-2,SW1-2,U1-3",
+    "used_designators": "B1-4,BT1-4,CH1-42,D1-42,H1-8,MX1-2,SW1-3,U1-4",
     "variants": []
   },
   "sheets": [
@@ -680,6 +680,10 @@
     [
       "af0a6e77-400f-4ef1-8167-7d634942cc2b",
       "Left"
+    ],
+    [
+      "338cff1b-3ffa-4301-8b0e-944a98d9ebce",
+      "Hub"
     ]
   ],
   "text_variables": {},
