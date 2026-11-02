@@ -5,6 +5,251 @@
 	(uuid "b33f81a9-95f1-4823-926d-66478b00e93a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -1850,6 +2095,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 50.8) (xy 31.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24731126-0ef0-4a51-b561-fe7167f498cc")
+	)
+	(wire
+		(pts
 			(xy 78.74 29.21) (xy 83.82 29.21)
 		)
 		(stroke
@@ -1917,6 +2172,16 @@
 			(type default)
 		)
 		(uuid "3dbc9252-2db1-4734-956a-60e4438b6219")
+	)
+	(wire
+		(pts
+			(xy 31.75 40.64) (xy 40.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4396a6af-0ba1-492c-913a-9afa0335ba4f")
 	)
 	(wire
 		(pts
@@ -2017,6 +2282,16 @@
 			(type default)
 		)
 		(uuid "6ffc4cd6-df55-402e-b827-d2a40014e88a")
+	)
+	(wire
+		(pts
+			(xy 31.75 50.8) (xy 31.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d847b6-675a-4e38-9161-8ecb8af3bc3e")
 	)
 	(wire
 		(pts
@@ -2428,6 +2703,26 @@
 		)
 		(uuid "66aa2495-addb-45ea-a231-719a9978ade9")
 	)
+	(label "GND"
+		(at 26.67 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a9e83fa-ca56-46ac-a41c-ac91ef0f55d2")
+	)
+	(label "VCC"
+		(at 78.74 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "723383e5-b7d6-4b9a-82e4-8637a537f228")
+	)
 	(label "Row_3"
 		(at 36.83 68.58 180)
 		(effects
@@ -2447,6 +2742,16 @@
 			(justify right bottom)
 		)
 		(uuid "8b255a34-7e37-4860-ab1c-c051338f3427")
+	)
+	(label "CS"
+		(at 40.64 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bf1622d-cb33-496d-a687-b4abd17a8e21")
 	)
 	(label "Column_7"
 		(at 226.06 64.77 90)
@@ -2488,6 +2793,26 @@
 		)
 		(uuid "9dede144-cedb-4fd9-86a4-58e73c1861c3")
 	)
+	(label "SCK"
+		(at 40.64 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0be43ae-368f-4107-adb7-60d825460fb9")
+	)
+	(label "CS"
+		(at 26.67 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a14e3b4d-5005-43fc-bd70-888a3c5fd15d")
+	)
 	(label "GND"
 		(at 36.83 45.72 180)
 		(effects
@@ -2497,6 +2822,16 @@
 			(justify right bottom)
 		)
 		(uuid "a6e6e1f3-5a1f-45c2-8402-b230f4385308")
+	)
+	(label "SCK"
+		(at 26.67 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aac89347-bdd2-4732-bded-d9fe10c4cd49")
 	)
 	(label "Column_5"
 		(at 193.04 63.5 90)
@@ -2537,6 +2872,16 @@
 			(justify left bottom)
 		)
 		(uuid "d51d5496-8686-450e-b55f-fc34a5a5efd7")
+	)
+	(label "VCC"
+		(at 26.67 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd07de8c-408c-4e63-9f29-df7fb08f5380")
 	)
 	(label "GND"
 		(at 36.83 38.1 180)
@@ -3016,7 +3361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 228.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3304,7 +3649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 162.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3488,7 +3833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 162.56 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3568,7 +3913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3960,7 +4305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 195.58 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4040,7 +4385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 195.58 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4224,7 +4569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 179.07 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4387,7 +4732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 129.54 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4543,7 +4888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5003,7 +5348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 146.05 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5122,6 +5467,95 @@
 			(project "my_keeb_v2_kicad"
 				(path "/908086ea-f4bb-4c16-84c5-a30cb50b08de/b9c84f99-fcf0-4dec-8565-8a76d6970543"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 21.59 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7411c0b7-c119-4db6-bb16-708525c3ac56")
+		(property "Reference" "J2"
+			(at 21.59 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 21.59 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+			(at 21.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 21.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19ef1142-c3c9-47e2-814c-6f49e6eff4e5")
+		)
+		(pin "3"
+			(uuid "7a5c7fca-a427-4b7f-bd2e-f962fd5cbe3c")
+		)
+		(pin "2"
+			(uuid "1bf30a66-81a2-46d4-a3e9-a4af56d71cc4")
+		)
+		(pin "4"
+			(uuid "8d453be1-c74b-4797-955e-d028f938f6b0")
+		)
+		(pin "5"
+			(uuid "7a080696-8d1e-40ac-a384-07e9a7428ef5")
+		)
+		(instances
+			(project "my_keeb_v2_kicad"
+				(path "/908086ea-f4bb-4c16-84c5-a30cb50b08de/b9c84f99-fcf0-4dec-8565-8a76d6970543"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 129.54 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5419,7 +5853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 212.09 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5499,7 +5933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 228.6 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5579,7 +6013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 195.58 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5763,7 +6197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 179.07 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5947,7 +6381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 179.07 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6131,7 +6565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 162.56 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6315,7 +6749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 212.09 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6395,7 +6829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 228.6 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6683,7 +7117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 129.54 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7047,7 +7481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_HS_CPG135001S30_1u"
+		(property "Footprint" "my_keeb:SW_choc_v1v2_HS_1u"
 			(at 146.05 116.84 0)
 			(hide yes)
 			(show_name no)
